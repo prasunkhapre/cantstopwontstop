@@ -1,0 +1,36 @@
+<html>
+	<head>
+	<title>
+    take input from user 
+	</title>
+	<script type ="text/javascript">
+	function check()
+	{
+	var msg; 
+	if(document.f1.pass.value.lenght);
+    {
+        msg ="password length is good";
+    }
+    {
+       msg ="password lenght is not good";
+    }
+    document.getElementById('spanid'),inneretext=msg;
+	}
+	</script>
+	</head>
+	
+	<body>
+	<form name="f1">
+	<table border="2" cellpading="2" cellspacing="2" align="center" bgcolor="green">
+	<tr>
+	<td>
+	<input type ="password" name="pass" onkeyup="check()">
+	</td>
+	<th>
+    <span id="spanid">Enter Password</span></th>
+	</th>
+
+	</table>
+	</form>
+	</body>
+	</html>

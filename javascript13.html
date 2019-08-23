@@ -1,0 +1,92 @@
+<html>
+	<head>
+	<title>
+    take input from user 
+	</title>
+	<script type ="text/javascript">
+	function check()
+	{
+        var user=document.f1.uname.value;
+        var password= document.f1.pass.value;
+        if
+        (user ==null ||user== "")
+        {
+            alert("enter the username");
+            return false;
+        }
+        {
+            else if(password==null||password=="")
+            return false;
+
+        }
+    }
+	</script>
+	</head>
+	
+	<body>
+	<form name="f1">
+	<table border="2" cellpading="2" cellspacing="2" align="center" bgcolor="sky blue">
+	<tr>
+    <th> enter the firstname</th>
+    
+    <td>
+        
+        <input type="text" name="firstname">
+        </td>
+
+        </tr>
+        <tr>
+            <th>
+                enter the lastname
+            </th>
+       <td>
+            <input type="text" name="lastname">
+       </td> 
+
+       <tr></tr>
+       
+       <th> enter the userid</th>
+    
+       <td>
+           
+           <input type="text" name="userid">
+           </td>
+   
+           <tr>
+               <th>
+                   enter the password
+               </th>
+          <td>
+               <input type="text" name="pass">
+          </td> 
+        </tr>
+
+        <tr>
+                <th>
+                    enter the address
+                </th>
+           <td>
+                <input type="text" name="address">
+           </td> 
+         </tr>
+
+        <tr>
+                <th>
+                    enter the DOB
+                </th>
+           <td>
+                <input type="date" name="bday">
+           </td> 
+         </tr>
+
+        <tr>
+       <th>
+            <input type="submit" onclick ="check()" VALUE ="submit">
+            </th></tr>
+    </tr>
+	
+
+	</table>
+	</form>
+	</body>
+	</html>
